@@ -7,12 +7,20 @@
 }
 
 .br-15 {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .btn-default {
     background: #ADCBBF;
     color: #fff;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.link {
+    color: #6c757d !important;
 }
 
 .bg-2 {
