@@ -24,16 +24,16 @@
                 Services
               </h6>
               <p>
-                <a class="text-reset">Medicare</a>
+                <a href="#Medicare" class="text-reset">Medicare</a>
               </p>
               <p>
-                <a class="text-reset">Health</a>
+                <a href="#Health" class="text-reset">Health</a>
               </p>
               <p>
-                <a class="text-reset">Life</a>
+                <a href="#Life" class="text-reset">Life</a>
               </p>
               <p>
-                <a class="text-reset">Medication Therapy Management</a>
+                <a href="#Medication Therapy Management" class="text-reset">Medication Therapy Management</a>
               </p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto text-start ps-4 mb-4">

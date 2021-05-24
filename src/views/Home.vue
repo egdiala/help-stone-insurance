@@ -2,11 +2,12 @@
   <div class="home">
     <div class="container">
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-5 col-md-12 col-sm-12 ps-4 my-2">
-          <h2 class="title-text fw-bolder fs-2">Instantly schedule<br> appointments with Doctors.</h2>
-          <p class="subtitle-text">Insurance plans are supported on <strong class="highlight">Help Stone</strong>. We have a range of services and support for your personal wellbeing at no price! Just call or email for free consultation.</p>
-          <a class="btn btn-success br-15" href="tel:(872) 529-6804">Contact us<i class="bi-phone-vibrate ms-2"></i></a>
-          
+        <div class="col-lg-5 col-md-12 col-sm-12 ps-4 d-flex align-items-center">
+          <div class="my-2">
+            <h2 class="title-text fw-bolder fs-2">Instantly schedule<br> appointments with Doctors.</h2>
+            <p class="subtitle-text">Insurance plans are supported on <strong class="highlight">Help Stone</strong>. We have a range of services and support for your personal wellbeing at no price! Just call or email for free consultation.</p>
+            <a class="btn btn-success br-15" href="tel:(872) 529-6804">Contact us<i class="bi-phone-vibrate ms-2"></i></a>
+          </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 my-2">
           <div id="carouselExampleFade" class="carousel slide carousel-fade px-3" data-bs-ride="carousel">
@@ -39,9 +40,9 @@
       <h2 class="text-center fw-bold pb-3">Our Services</h2>
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div v-for="(service, s) in services" :key="s" class="col">
+          <div v-for="(service, s) in services" :key="s" class="col" :id="service.title">
             <div class="card br-15 h-100">
-              <img :src="service.img" class="card-img-top br-15" alt="">
+              <img :src="service.img" class="card-img-top br-15" alt="" height="300">
               <div class="card-body">
                 <h5 class="card-title">{{service.title}}</h5>
                 <p class="card-text">{{service.text}}</p>
@@ -106,17 +107,17 @@ export default {
         {
           img: 'https://images.unsplash.com/photo-1612277795054-a7a98257dd6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
           title: 'Health',
-          text: 'This is a short card.'
+          text: 'We provide all round checkup for you to ensure you are in a complete healthy consdition.'
         },
         {
           img: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
           title: 'Medication Therapy Management',
-          text: 'This is a longer card with supporting text below as a natural lead-in to additional content.'
+          text: 'We offer medication therapy management for Medicare recipients. This adds drug coverage to the Original Medicare plan.'
         },
         {
           img: 'https://images.unsplash.com/photo-1554331292-735256644d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80',
           title: 'Life',
-          text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+          text: 'We also offer health insurance plans (for under 65, marketplace, short term major medical) in addition to Term, Whole life, or Universal Life Insurance.'
         }
       ]
     }
