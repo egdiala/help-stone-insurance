@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar fixed navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="@/assets/logo.png" alt="" class="img-fluid" width="50" height="50">
-          <strong class="title-text">Help Stone Insurance</strong>
+          <strong class="title-text">HelpStone Insurance</strong>
         </a>
       </div>
     </nav>
@@ -16,7 +16,7 @@
           <div class="row pt-3">
             <div class="col-md-4 col-lg-5 col-xl-4 mx-auto text-start mb-4">
               <h6 class="text-uppercase fw-bold mb-4">
-                <img src="@/assets/logo.png" alt="" class="img-fluid" width="80" height="80">Help Stone Insurance
+                <img src="@/assets/logo.png" alt="" class="img-fluid" width="80" height="80">HelpStone Insurance
               </h6>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto text-start ps-4 mb-4">
@@ -52,7 +52,7 @@
         </div>
       </section>
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      Copyright © {{ new Date().getFullYear() }} Help Stone Insurance - All Rights Reserved.
+      Copyright © {{ new Date().getFullYear() }} HelpStone Insurance - All Rights Reserved.
       </div>
     </footer>
     <!-- Footer -->
