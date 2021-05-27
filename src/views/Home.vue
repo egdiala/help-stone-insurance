@@ -9,21 +9,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="https://cdn-cepin.nitrocdn.com/rnNgBGqLqNeaHIQTmZxdsByxcthuuOtr/assets/static/optimized/wp-content/uploads/2020/05/8d7b1bde752f9448e5f51138bc453637.Slide-3.jpg" height="500" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h4>Medication Therapy Management</h4>
         <p>These plans are offered by insurance companies and other private companies approved by Medicare. Medicare Advantage Plans may also offer prescription drug coverage that follows the same rules as Medicare Prescription Drug Plans.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://cdn-cepin.nitrocdn.com/rnNgBGqLqNeaHIQTmZxdsByxcthuuOtr/assets/static/optimized/wp-content/uploads/2020/05/60a976f203e0d49218fb90075ecfb494.Slide-2.jpg" height="500" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h4>Medicare</h4>
         <p>A Medicare Supplement Insurance (Medigap) policy, sold by private companies, can help pay some of the health care costs that Original Medicare doesn’t cover, like co-payments, co-insurance, and deductibles.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://cdn-cepin.nitrocdn.com/rnNgBGqLqNeaHIQTmZxdsByxcthuuOtr/assets/static/optimized/wp-content/uploads/2020/05/6d1979b5b941f2a702b8e6ff057548ed.Slide-1.jpg" height="500" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h4>Health</h4>
         <p>Medicare Advantage Plans are a type of Medicare health plan offered by a private company that contracts with Medicare to provide all your Part A and Part B benefits.</p>
       </div>
