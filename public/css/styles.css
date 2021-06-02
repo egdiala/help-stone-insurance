@@ -2,6 +2,27 @@
     font-family: 'Lato', sans-serif !important;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+footer {
+    bottom: 0;
+    border-width: 0 0 1px;
+    position: relative;
+    right: 0;
+    left: 0;
+}
+
+.mb-50 {
+    margin-top: 115px !important;
+}
+
 .highlight {
     color: #42b983;
 }
@@ -21,6 +42,10 @@ a {
 
 .link {
     color: #6c757d !important;
+}
+
+.bg-white {
+    background: white;
 }
 
 .bg-2 {
