@@ -24,7 +24,7 @@
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="ms-2 fs-5 me-auto">
-                        <div class="fs-4 fw-bold">SCHEDULE A “ZOOM MEETING” VIDEO CALL</div>
+                        <div class="fs-4 fw-bold">SCHEDULE A VIDEO CALL</div>
                         If you want to setup a time to chat via a Zoom Meeting, Skype Call or Facebook Messenger Call please fill the form below to pick a time to meet via any preferred platform of your choice.
                         </div>
                     </li>
@@ -35,15 +35,19 @@
                             data-netlify-honeypot="bot-field" class="row g-3">
                             <input type="hidden" name="form-name" value="schedule" />
                             <div class="col-md-6">
+                            <label for="name">Name</label>
                             <input type="text" name="name" class="form-control" placeholder="Name" required>
                             </div>
                             <div class="col-md-6">
+                            <label for="email">Email</label>
                             <input type="email" name="email" class="form-control" placeholder="Email" required>
                             </div>
                             <div class="col-md-6">
+                            <label for="phone">Phone</label>
                             <input type="text" name="phone" class="form-control" placeholder="Phone" required>
                             </div>
                             <div class="col-md-6">
+                            <label for="service">Service</label>
                             <select name="service" class="form-select" id="autoSizingSelect" required>
                                 <option value="Medicare">Medicare</option>
                                 <option value="Health">Health</option>
@@ -52,6 +56,7 @@
                             </select>
                             </div>
                             <div class="col-md-4">
+                            <label for="platform">Social Platform</label>
                             <select name="platform" class="form-select" id="autoSizingSelect" required>
                                 <option value="Zoom">Zoom</option>
                                 <option value="Skype">Skype</option>
@@ -59,12 +64,15 @@
                             </select>
                             </div>
                             <div class="col-md-4">
+                            <label for="date">Date</label>
                             <input type="date" name="date" class="form-control" required>
                             </div>
                             <div class="col-md-4">
+                            <label for="age">Age</label>
                             <input type="text" name="age" class="form-control" placeholder="Age" required>
                             </div>
                             <div class="col-md-12">
+                            <label for="message">Message</label>
                             <textarea name="message" class="form-control" placeholder="Leave a message here" rows="5"></textarea>
                             </div>
                             <div class="d-grid gap-2 col-md-6 mx-auto">
