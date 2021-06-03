@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Schedule from '../views/Home.vue'
+import Schedule from '../views/Schedule.vue'
 
 Vue.use(VueRouter)
 

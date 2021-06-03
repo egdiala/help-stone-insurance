@@ -18,7 +18,7 @@
               <a class="nav-link" href="mailto:helpersstone@gmail.com"><i class="bi-envelope-fill me-2 fs-5 highlight"></i>Email Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi-camera-video-fill me-2 fs-5 highlight"></i>Remote Meeting</a>
+              <a class="nav-link" href="/schedule"><i class="bi-camera-video-fill me-2 fs-5 highlight"></i>Remote Meeting</a>
             </li>
           </ul>
         </div>
@@ -40,16 +40,16 @@
                 Services
               </h5>
               <p>
-                <a href="#Medicare" class="text-reset">Medicare</a>
+                <a href="/#Medicare" class="text-reset">Medicare</a>
               </p>
               <p>
-                <a href="#Health" class="text-reset">Health</a>
+                <a href="/#Health" class="text-reset">Health</a>
               </p>
               <p>
-                <a href="#Life" class="text-reset">Life</a>
+                <a href="/#Life" class="text-reset">Life</a>
               </p>
               <p>
-                <a href="#Medication Therapy Management" class="text-reset">Medication Therapy Management</a>
+                <a href="/#Medication Therapy Management" class="text-reset">Medication Therapy Management</a>
               </p>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto text-start ps-4 mb-4">
