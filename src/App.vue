@@ -46,7 +46,7 @@
                 <a href="/#Health" class="text-reset">Health</a>
               </p>
               <p>
-                <a href="/#Life" class="text-reset">Life</a>
+                <a href="/#Long Term Care/Life Insurance" class="text-reset">Life</a>
               </p>
               <p>
                 <a href="/#Medication Therapy Management" class="text-reset">Medication Therapy Management</a>

@@ -3,7 +3,7 @@
   <h1 class="text-center">Product and Services</h1>
   <section>
     <div class="container">
-      <div v-for="(service, s) in services" :key="s" class="row">
+      <div v-for="(service, s) in services" :key="s" :id="service.title" class="row">
         <div class="col-md-6 mt-3">
           <img :src="require(`@/assets/img/${service.img}`)" class="img-thumbnail" alt="">
         </div>

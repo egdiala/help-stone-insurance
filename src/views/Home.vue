@@ -40,7 +40,7 @@
         <div class="col-lg-8 col-md-12 col-sm-12 d-flex align-items-center">
           <div class="my-2 text-center">
             <h2 class="title-text fw-bolder fs-3">WELCOME TO HELPSTONE INSURANCE</h2>
-            <p class="fs-5">We have a range of services and support for your personal wellbeing at no price! We provide Medicare, Health, and Life insurance solutions also Medication Therapy Management services. Call today for a no cost, no obligation Medicare Planning Review.</p>
+            <p class="fs-5">We have a range of services and support for your personal wellbeing at no cost to you! We provide Medicare, Health, and Life insurance solutions also Medication Therapy Management services. Call today for a no cost, no obligation Medicare Planning Review.</p>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
                 <h3 class="card-title fw-bolder">{{service.title}}</h3>
                 <p class="card-text fs-5" v-text="str(service.text)"></p>
               </div>
-                <div class="text-end card-footer bg-white"><a href="/services" class="btn btn-sm btn-outline-primary">Learn more</a></div>
+                <div class="text-end card-footer bg-white"><a :href="`/services/#${service.title}`" class="btn btn-sm btn-outline-primary">Learn more</a></div>
             </div>
           </div>
         </div> 
