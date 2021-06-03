@@ -11,7 +11,7 @@
                 <h3 class="fw-bolder">DURING THESE DIFFICULT TIMES, WE MAKE IT EASY TO CONNECT!</h3>
                 <p class="fs-5">Please choose your preferred method to contact us below:</p>
                 <div class="col">
-                <ol class="list-group mb-4">
+                <ol class="list-group list-group-flush mb-4">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="ms-2 fs-5 me-auto">
                         <div class="fs-4 fw-bold">CALL OR EMAIL US NOW</div>
