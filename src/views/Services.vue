@@ -7,17 +7,17 @@
         <div class="col-md-6 mt-3">
           <img :src="require(`@/assets/img/${service.img}`)" class="img-thumbnail" alt="">
         </div>
-        <div class="col-md-6 mt-3">
-          <h1 class="text-center">{{service.title}}</h1>
-          {{service.text}} <p v-if="s == 0">Under Medicare, there are 3 plans you can sign up for that we offer.</p>
-          <ol v-if="s == 0" class="list-group list-group-numbered">
-            <li v-for="(care, c) in cares" :key="c" class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fs-4 fw-bold">{{care.title}}</div>
+        <div class="col-md-6 fs-4 mt-3">
+          <h1 class="text-center fs-1">{{service.title}}</h1>
+          {{service.text}}
+          <ul v-if="s == 0" class="">
+            <li v-for="(care, c) in cares" :key="c" class=" ">
+              <div class="ms-2 fs-4 me-auto">
+                <div class="fs-3 fw-bold">{{care.title}}</div>
                 {{care.subtitle}}
               </div>
             </li>
-          </ol>
+          </ul>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
         {
           img: 'life.jpeg',
           title: 'Long Term Care/Life Insurance',
-          text: 'Long-term care (LTC) is a range of services and support for your personal care needs. Most long-term care isn’t medical care. Instead, most long-term care is help with basic personal tasks of everyday life like bathing, dressing, and using the bathroom, sometimes called activities of daily living. Medicare doesn’t cover long-term care (also known as custodial care) if that’s the only care you need. Most nursing home care is custodial care. You pay 100% for non-covered services, including most long-term care. We can help you plan for that time. We also offer health insurance plans (for under 65, marketplace, short term major medical) in addition to Term, Whole life, or Universal Life Insurance.'
+          text: 'Long-term care (LTC) is a range of services and support for your personal care needs. Most long-term care isn’t medical care. Instead, most long-term care is help with basic personal tasks of everyday life like bathing, dressing, and using the bathroom, sometimes called activities of daily living. Medicare doesn’t cover long-term care (also known as custodial care) if that’s the only care you need. Most nursing home care is custodial care. You pay 100% for non-covered services, including most long-term care. We can help you plan for that time.'
         },
       ],
       cares: [
@@ -72,3 +72,7 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+
+</style>
