@@ -46,7 +46,7 @@ export default {
         {
           img: 'health.jpeg',
           title: 'Health',
-          text: 'We also offer health insurance plans (for under 65), marketplace, short term and major medical.'
+          text: 'We also offer health insurance plans (for under 65), marketplace, short term, hospital indemnity, critical illness, cancer, dental and vision insurance, major medical.'
         },
         {
           img: 'life.jpeg',
