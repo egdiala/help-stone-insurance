@@ -51,7 +51,7 @@ export default {
         {
           img: 'life.jpeg',
           title: 'Long Term Care/Life Insurance',
-          text: 'Long-term care (LTC) is a range of services and support for your personal care needs. Most long-term care isn’t medical care. Instead, most long-term care is help with basic personal tasks of everyday life like bathing, dressing, and using the bathroom, sometimes called activities of daily living. Medicare doesn’t cover long-term care (also known as custodial care) if that’s the only care you need. Most nursing home care is custodial care. You pay 100% for non-covered services, including most long-term care. We can help you plan for that time.'
+          text: 'Long-term care (LTC) is a range of services and support for your personal care needs. Most long-term care isn’t medical care. Instead, most long-term care is help with basic personal tasks of everyday life like bathing, dressing, and using the bathroom, sometimes called activities of daily living. Medicare doesn’t cover long-term care (also known as custodial care) if that’s the only care you need. Most nursing home care is custodial care. You pay 100% for non-covered services, including most long-term care. We can help you plan for that time in addition to Term, Whole Life, or Universal Life Insurance.'
         },
       ],
       cares: [
