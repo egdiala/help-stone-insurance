@@ -1,19 +1,19 @@
 <template>
 <div class="mb-50">
-  <h1 class="text-center">Product and Services</h1>
+  <h1 class="text-center fs-4 fw-bold">PRODUCT AND SERVICES</h1>
   <section>
     <div class="container">
-      <div v-for="(service, s) in services" :key="s" :id="service.title" class="row">
+      <div v-for="(service, s) in services" :key="s" :id="s" class="row">
         <div class="col-md-6 mt-3">
           <img :src="require(`@/assets/img/${service.img}`)" class="img-thumbnail" alt="">
         </div>
-        <div class="col-md-6 fs-4 mt-3">
-          <h1 class="text-center fs-1">{{service.title}}</h1>
+        <div class="col-md-6 fs-5 mt-3">
+          <h1 class="text-center fw-bold fs-2">{{service.title}}</h1>
           {{service.text}}
           <ul v-if="s == 0" class="">
-            <li v-for="(care, c) in cares" :key="c" class=" ">
-              <div class="ms-2 fs-4 me-auto">
-                <div class="fs-3 fw-bold">{{care.title}}</div>
+            <li v-for="(care, c) in cares" :key="c" :id="`c${c}`">
+              <div class="ms-2 fs-5 me-auto">
+                <div class="fs-4 fw-bold">{{care.title}}</div>
                 {{care.subtitle}}
               </div>
             </li>

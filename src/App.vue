@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src="@/assets/logo.png" alt="" class="img-fluid" width="80" height="80">
-          <strong class="fs-3">HelpStone Insurance</strong>
+          <strong class="fs-4">HelpStone Insurance</strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

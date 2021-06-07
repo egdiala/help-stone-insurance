@@ -2,7 +2,7 @@
     <div class="mb-50">
         <div class="container">
             <div class="row">
-                <h3 class="fw-bolder">REMOTE MEETING</h3>
+                <h3 class="fw-bold fs-4">REMOTE MEETING</h3>
                 <p class="fs-5">
 <strong class="fs-4">Doing Business During COVID-19:</strong> During the Coronavirus pandemic, we are happy to accommodate any client who wishes to meet remotely vs. “in-person”. At our clients request, we are able to pick up any essential documents (fax them, or leave them outside and we will pickup) and conduct most business over the phone, or by remote meeting.</p>
             </div>

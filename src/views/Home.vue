@@ -9,26 +9,26 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="@/assets/img/medicare.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
+      <img src="@/assets/img/medicare.jpeg" class="d-block w-100">
+      <div class="carousel-caption mb-4">
         <h1>Medicare</h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="@/assets/img/mtm.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
-        <h1>Medication Therapy Management</h1>
-      </div>
+      <img src="@/assets/img/mtm.jpeg" class="d-block w-100">    
+        <div class="carousel-caption mb-4">
+          <h1>Medication Therapy Management</h1>
+        </div>
     </div>
     <div class="carousel-item">
-      <img src="@/assets/img/health.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
+      <img src="@/assets/img/health.jpeg" class="d-block w-100">
+      <div class="carousel-caption mb-4">
         <h1>Health</h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="@/assets/img/life.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
+      <img src="@/assets/img/life.jpeg" class="d-block w-100">
+      <div class="carousel-caption mb-4">
         <h1>Life</h1>
       </div>
     </div>
@@ -56,7 +56,7 @@
                 <h3 class="card-title fw-bolder">{{service.title}}</h3>
                 <p class="card-text fs-5" v-text="str(service.text)"></p>
               </div>
-                <div class="text-end card-footer bg-white"><a :href="`/services/#${service.title}`" class="btn btn-sm btn-outline-primary">Learn more</a></div>
+                <div class="text-end card-footer bg-white"><a :href="`/services/#${s}`" class="btn btn-sm btn-outline-primary">Learn more</a></div>
             </div>
           </div>
         </div> 

@@ -19,6 +19,11 @@ footer {
     left: 0;
 }
 
+.carousel-caption {
+    background-color: rgba(44, 70, 142, 0.8) !important;
+    border-radius: 8px !important;
+}
+
 .mb-50 {
     margin-top: 115px !important;
 }
