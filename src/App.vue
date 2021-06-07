@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src="@/assets/logo.png" alt="" class="img-fluid" width="80" height="80">
