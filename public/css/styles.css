@@ -20,8 +20,14 @@ footer {
 }
 
 .carousel-caption {
-    background-color: rgba(44, 70, 142, 0.8) !important;
+    background-color: rgba(44, 70, 142, 0.75) !important;
     border-radius: 8px !important;
+    margin: 0;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .mb-50 {
