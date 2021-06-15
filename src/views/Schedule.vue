@@ -19,7 +19,7 @@
                         <p>
                         <a href="mailto:helpersstone@gmail.com" class="highlight"><i class="bi bi-envelope-fill me-2"></i>
                 EMAIL US: helpersstone@gmail.com</a></p>
-              <p><a href="tel:(872) 529-6804" class="highlight"><i class="bi bi-phone-fill me-2"></i>(872) 529-6804</a></p>
+              <p><a href="tel:765-431-2532" class="highlight"><i class="bi bi-phone-fill me-2"></i>765-431-2532</a></p>
                         </div>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">

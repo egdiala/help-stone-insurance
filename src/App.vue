@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tel:(872) 529-6804"><i class="bi-telephone-fill me-2 fs-5 highlight"></i>Call Now</a>
+              <a class="nav-link" aria-current="page" href="tel:765-431-2532"><i class="bi-telephone-fill me-2 fs-5 highlight"></i>Call Now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mailto:helpersstone@gmail.com"><i class="bi-envelope-fill me-2 fs-5 highlight"></i>Email Us</a>
@@ -61,7 +61,7 @@
                 <a href="mailto:helpersstone@gmail.com" class="link"><i class="bi bi-envelope-fill me-2"></i>
                 helpersstone@gmail.com</a>
               </p>
-              <p><a href="tel:(872) 529-6804" class="link"><i class="bi bi-phone-fill me-2"></i>(872) 529-6804</a></p>
+              <p><a href="tel:765-431-2532" class="link"><i class="bi bi-phone-fill me-2"></i>765-431-2532</a></p>
               <p><a href="https://www.facebook.com/Helpstone-Insurance-100615752229210/" target="_blank" class="link"><i class="bi bi-facebook me-2"></i>Help Stone Insurance</a></p>
             </div>
           </div>
